@@ -1,0 +1,76 @@
+/* Global styles for the Student Portal pages */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	background: url('https://www.charusat.ac.in/assets/images/home/CHARUSAT_GATE.webp') center/cover no-repeat fixed;
+}
+
+.box {
+	background: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	border-radius: 10px;
+	width: min(90%, 520px);
+}
+
+table {
+	background: #020202;
+	table-layout: fixed;
+	text-align: center;
+	th, td {
+		border: 2px solid #f9f9fa;
+		padding: 8px;
+		text-align: left;
+	}
+	color: #fff;
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+h2, h3 {
+	margin-top: 0;
+}
+
+.menu {
+	line-height: 1.8;
+	margin-bottom: 20px;
+}
+
+.menu a {
+	color: #000;
+	text-decoration: none;
+}
+
+ul {
+	padding-left: 24px;
+}
+
+.button-link {
+	display: inline-block;
+	width: 100%;
+	padding: 8px;
+	margin: 6px 0;
+	box-sizing: border-box;
+	background: #eee;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* Form controls */
+input,
+button,
+textarea,
+select {
+	width: 100%;
+	padding: 8px;
+	margin: 6px 0;
+	box-sizing: border-box;
+}
+
+legend {
+	text-align: center;
+}

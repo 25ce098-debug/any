@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h2>Student Registration</h2>
+        <fieldset>
+            <legend>Registration Form</legend>
+            <form action="table.html" method="get">
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td>:</td>
+                        <td><input type="text" pattern="[A-Za-z ]+" name="txtname" placeholder="Enter Full Name"></td>
+                    </tr>
+                    <tr>
+                        <td>username</td>
+                        <td>:</td>
+                        <td><input type="text" pattern="[A-Za-z ]+" name="username" placeholder="Enter Username"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>:</td>
+                        <td><input type="password" id="psdname" name="psdname" placeholder="Enter password"></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile</td>
+                        <td>:</td>
+                        <td><input type="tel" pattern="[0-9]{10}" title="only 10 Digits" placeholder="Enter Mobile Number"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>:</td>
+                        <td>
+                            <label>
+                                <input type="radio" id="male" name="gender" value="male">
+                                Male
+                            </label>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                Female
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>email</td>
+                        <td>:</td>
+                        <td><input type="email" id="emailname" name="emailname" placeholder="Enter Email"></td>
+                    </tr>
+                    <tr>
+                        <td>branch</td>
+                        <td>:</td>
+                        <td><select id="branchname" name="branchname">
+                            <option value="">Select Branch</option>
+                            <option value="cse">CSE</option>
+                            <option value="it">IT</option>
+                            <option value="mech">Mechanical</option>
+                            <option value="civil">Civil</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Area of Interest</td>
+                        <td>:</td>
+                        <td><select id="interest" name="interest">
+                            <option value="">Select Area of Interest</option>
+                            <option value="AI">AI</option>
+                            <option value="ML">ML</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="App Development">App Development</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>:</td>
+                        <td><textarea id="address" name="address" placeholder="Enter Address"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Interested in Events</td>
+                        <td>:</td>
+                        <td><input type="checkbox" id="terms" name="terms">
+                            <label for="chkterms">Interested in technical events</label><br>
+                            <input type="checkbox" id="chkterms" name="chkterms">
+                            <label for="chkterms">Interested in cultural events</label>
+                        </td>
+                        <tr>
+                            <td>Submit</td>
+                            <td>:</td>
+                            <td><input type="submit" value="Submit"></td>
+                        </tr>    
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
